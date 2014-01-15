@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: hubo_description
+    relative_path: urdf/hubo.urdf
+  SRDF:
+    relative_path: config/huboplus.srdf
+  CONFIG:
+    generated_timestamp: 1389771674

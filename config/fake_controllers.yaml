@@ -1,0 +1,36 @@
+controller_list:
+  - name: fake_right_arm_controller
+    joints:
+      - RSP
+      - RSR
+      - RSY
+      - REP
+      - RWY
+      - RWP
+  - name: fake_left_arm_controller
+    joints:
+      - LSP
+      - LSR
+      - LSY
+      - LEP
+      - LWY
+      - LWP
+  - name: fake_left_leg_controller
+    joints:
+      - LHY
+      - LHR
+      - LHP
+      - LKP
+      - LAP
+      - LAR
+  - name: fake_right_leg_controller
+    joints:
+      - RHY
+      - RHR
+      - RHP
+      - RKP
+      - RAP
+      - RAR
+  - name: fake_right_hand_controller
+    joints:
+      []
