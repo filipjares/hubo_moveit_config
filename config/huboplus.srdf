@@ -77,35 +77,35 @@
     </group_state>
     <group_state name="right_arm_raised_forward" group="right_arm">
         <joint name="REP" value="0" />
-        <joint name="RSP" value="-1,6237" />
+        <joint name="RSP" value="-1.6237" />
         <joint name="RSR" value="0" />
         <joint name="RSY" value="0" />
         <joint name="RWP" value="0" />
-        <joint name="RWY" value="1,5531" />
+        <joint name="RWY" value="1.5531" />
     </group_state>
     <group_state name="left_arm_raised_forward" group="left_arm">
         <joint name="LEP" value="0" />
-        <joint name="LSP" value="-1,6943" />
+        <joint name="LSP" value="-1.6943" />
         <joint name="LSR" value="0" />
         <joint name="LSY" value="0" />
         <joint name="LWP" value="0" />
-        <joint name="LWY" value="-1,5884" />
+        <joint name="LWY" value="-1.5884" />
     </group_state>
     <group_state name="left_arm_outstretched" group="left_arm">
         <joint name="LEP" value="0" />
-        <joint name="LSP" value="-1,6943" />
-        <joint name="LSR" value="1,5355" />
+        <joint name="LSP" value="-1.6943" />
+        <joint name="LSR" value="1.5355" />
         <joint name="LSY" value="0" />
         <joint name="LWP" value="0" />
-        <joint name="LWY" value="-1,5884" />
+        <joint name="LWY" value="-1.5884" />
     </group_state>
     <group_state name="right_arm_outstretched" group="right_arm">
         <joint name="REP" value="0" />
-        <joint name="RSP" value="-1,6237" />
-        <joint name="RSR" value="-1,5002" />
+        <joint name="RSP" value="-1.6237" />
+        <joint name="RSR" value="-1.5002" />
         <joint name="RSY" value="0" />
         <joint name="RWP" value="0" />
-        <joint name="RWY" value="1,5531" />
+        <joint name="RWY" value="1.5531" />
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="right_hand_eef" parent_link="Body_RWP" group="right_hand" parent_group="right_arm" />
