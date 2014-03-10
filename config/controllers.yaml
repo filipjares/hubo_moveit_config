@@ -1,41 +1,14 @@
 controller_list:
-  - name: right_arm_controller
+  - name: huboplus/left_hand_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
-    joints:
-      - RSP
-      - RSR
-      - RSY
-      - REP
-      - RWY
-      - RWP
-  - name: left_arm_controller
+    joints: [LSP, LSR, LSY, LEP, LWY, LWP]
+  - name: huboplus/right_hand_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
-    joints:
-      - LSP
-      - LSR
-      - LSY
-      - LEP
-      - LWY
-      - LWP
-  - name: left_leg_controller
+    joints: [RSP, RSR, RSY, REP, RWY, RWP]
+  - name: huboplus/legs_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
-    joints:
-      - LHY
-      - LHR
-      - LHP
-      - LKP
-      - LAP
-      - LAR
-  - name: right_leg_controller
-    action_ns: follow_joint_trajectory
-    type: FollowJointTrajectory
-    joints:
-      - RHY
-      - RHR
-      - RHP
-      - RKP
-      - RAP
-      - RAR
+    joints: [LHY, LHR, LHP, LKP, LAP, LAR,
+             RHY, RHR, RHP, RKP, RAP, RAR]
