@@ -1041,4 +1041,26 @@
     <disable_collisions link1="rightThumbDistal" link2="rightThumbMedial" reason="Adjacent" />
     <disable_collisions link1="rightThumbDistal" link2="rightThumbProximal" reason="Never" />
     <disable_collisions link1="rightThumbMedial" link2="rightThumbProximal" reason="Adjacent" />
+
+    <disable_collisions link1="hand_mount_link" link2="hand_mount_kinect_ir_link"/>
+    <disable_collisions link1="hand_mount_link" link2="Body_RWP"/>
+
+    <disable_collisions link1="hand_mount_link" link2="rightThumbProximal"/>
+    <disable_collisions link1="hand_mount_link" link2="rightThumbMedial"/>
+    <disable_collisions link1="hand_mount_link" link2="rightThumbDistal"/>
+    <disable_collisions link1="hand_mount_link" link2="rightIndexProximal"/>
+    <disable_collisions link1="hand_mount_link" link2="rightIndexMedial"/>
+    <disable_collisions link1="hand_mount_link" link2="rightIndexDistal"/>
+    <disable_collisions link1="hand_mount_link" link2="rightMiddleProximal"/>
+    <disable_collisions link1="hand_mount_link" link2="rightMiddleMedial"/>
+    <disable_collisions link1="hand_mount_link" link2="rightMiddleDistal"/>
+    <disable_collisions link1="hand_mount_link" link2="rightRingProximal"/>
+    <disable_collisions link1="hand_mount_link" link2="rightRingMedial"/>
+    <disable_collisions link1="hand_mount_link" link2="rightRingDistal"/>
+    <disable_collisions link1="hand_mount_link" link2="rightPinkyProximal"/>
+    <disable_collisions link1="hand_mount_link" link2="rightPinkyMedial"/>
+    <disable_collisions link1="hand_mount_link" link2="rightPinkyDistal"/>
+
+    <disable_collisions link1="Body_RHP" link2="hand_mount_link" />
+    <disable_collisions link1="Body_RHR" link2="hand_mount_link" />
 </robot>
