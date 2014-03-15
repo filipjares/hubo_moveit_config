@@ -58,6 +58,29 @@
         <joint name="rightThumbKnuckle2" />
         <joint name="rightThumbKnuckle3" />
     </group>
+    <group name="left_hand">
+        <joint name="rightIndexKnuckle1" />
+        <joint name="rightIndexKnuckle2" />
+        <joint name="rightIndexKnuckle3" />
+        <joint name="rightMiddleKnuckle1" />
+        <joint name="rightMiddleKnuckle2" />
+        <joint name="rightMiddleKnuckle3" />
+        <joint name="rightPinkyKnuckle1" />
+        <joint name="rightPinkyKnuckle2" />
+        <joint name="rightPinkyKnuckle3" />
+        <joint name="rightRingKnuckle1" />
+        <joint name="rightRingKnuckle2" />
+        <joint name="rightRingKnuckle3" />
+        <joint name="rightThumbKnuckle1" />
+        <joint name="rightThumbKnuckle2" />
+        <joint name="rightThumbKnuckle3" />
+    </group>
+    <group name="left_foot">
+        <joint name="LAR" />
+    </group>
+    <group name="right_foot">
+        <joint name="RAR" />
+    </group>
     <!--GROUP STATES: Purpose: Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
     <group_state name="right_arm_hanging" group="right_arm">
         <joint name="REP" value="0" />
@@ -109,6 +132,9 @@
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="right_hand_eef" parent_link="Body_RWP" group="right_hand" parent_group="right_arm" />
+    <end_effector name="left_hand_eef" parent_link="Body_LWP" group="left_hand" parent_group="left_arm" />
+    <end_effector name="left_foot_eef" parent_link="Body_LAP" group="left_foot" />
+    <end_effector name="right_foot_eef" parent_link="Body_RAP" group="right_foot" />
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
     <virtual_joint name="virtual_joint" type="floating" parent_frame="/hubo_location" child_link="Body_Torso" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
