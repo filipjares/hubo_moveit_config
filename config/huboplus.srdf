@@ -1063,4 +1063,6 @@
 
     <disable_collisions link1="Body_RHP" link2="hand_mount_link" />
     <disable_collisions link1="Body_RHR" link2="hand_mount_link" />
+
+    <disable_collisions link1="hand_mount_kinect_ir_link" link2="hand_mount_prosilica_link"/>
 </robot>
